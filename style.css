@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: url("Images/coffee.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#frame {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 90%;
+  
+}
+
+#main {
+  text-align: left;
+  background-color: #d7ba7e;
+  padding: 5%;
+  line-height: 1.7em;
+  border-radius: 1%;
+}
+
+#name, #email, #number, select, textarea {
+  width: 80%;
+  padding: 5px 15px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  
+  background-color:#795346;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+

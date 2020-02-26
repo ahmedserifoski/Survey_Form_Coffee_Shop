@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id="frame">
+        <div id="main">
+            <div><h1 id="title">Shaghai Coffee</h1></div>
+            <div><br>
+                <p id="description">Give us some tips on how to improve your coffee time ;-)</p>
+            </div><br>
+            <div>
+                <form id="survey-form" action="#">
+                    <div>
+                        <label for="name" id="name-label">Name: </label><br>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required><br>
+        
+                        <label for="email" id="email-label">Email: </label><br>
+                        <input type="email" id="email" placeholder="e.g. john.doe@gmail.com" required><br>
+        
+                        <label for="tel" id="number-label">Number: </label><br>
+                        <input type="tel" id="number" name="phone" min="9" max="10" placeholder="079 1234 56 78" required><br>
+                    </div><br>
+                    
+                    <div>
+                    <label for="ideas">We were thinking something like...</label><br>
+                    <select name="ideas" id="dropdown">
+                        <option value="more_pillows">More pillows</option>
+                        <option value="better_wifi">Better Wi-Fi</option>
+                        <option value="don't_change">Don't change anything. You are the BEST!</option>
+                    </select><br><br>    
+                    </div>
+                        
+                    <div>
+                        <label for="when">When do you drink your coffee?</label> <br>
+                        <input type="radio" name="when" value="morning">Morning <br>
+                        <input type="radio" name="when" value="noon">Noon <br>
+                        <input type="radio" name="when" value="afternoon">Afternoon <br>
+                        <input type="radio" name="when" value="evening">Evening <br>
+                        <input type="radio" name="when" value="midnight">Midnight
+                    </div><br>
+
+                    <div>
+                        <label for="why">Why do you drink your coffee?</label> <br>
+                        <input type="checkbox" value="release_stress">Release Stress <br>
+                        <input type="checkbox" value="refreshing">Refreshing <br>
+                        <input type="checkbox" value="social_ocasion">Social Ocasion <br>
+                        <input type="checkbox" value="i_can't_live_without_coffe">I can't live without coffee! Give me more! <br>
+                        
+                    </div><br>
+
+                    <div>
+                        <label for="text">Some other ideas we didn't think of ?</label> <br>
+                        <textarea name="other" id="text" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                    <div>
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

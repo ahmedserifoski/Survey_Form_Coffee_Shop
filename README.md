@@ -4,5 +4,5 @@
 
 ### FEATURES
 
-  *Fully responsive (mobile first)
-  *Fully functional on the front end
+  * Fully responsive (mobile first)
+  * Fully functional on the front end

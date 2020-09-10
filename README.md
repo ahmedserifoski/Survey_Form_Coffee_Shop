@@ -1,8 +1,17 @@
-# Survey_Form_Coffee_Shop
+# Survey Form Coffe Shop
 
-**LIVE LINK**: [Survey Form Coffee Shop](https://quizzical-fermat-c4937f.netlify.com/)
+**LIVE LINK:** https://survey-form-coffee-shop.netlify.app/
 
-### FEATURES
+## Features
+* Fully responsive (mobile first)
+* Fully functional on the front end
 
-  * Fully responsive (mobile first)
-  * Fully functional on the front end
+
+## Running the Project
+**From the repo:**
+1. Clone this project locally
+2. Open index.html in your browser
+
+## Technologies used 
+* HTML
+* CSS
